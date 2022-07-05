@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+post = Post.create([{title: 'babar ', description: 'babar est devenu un elephant ...'}, { title: 'jean le fdp'}])
+
+
+
+# create_table "posts", force: :cascade do |t|
+#     t.string   "title"
+#     t.text     "description"
+#     t.datetime "created_at",  null: false
+#     t.datetime "updated_at",  null: false
